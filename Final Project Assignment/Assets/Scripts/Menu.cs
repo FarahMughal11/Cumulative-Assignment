@@ -23,7 +23,13 @@ public class Menu : MonoBehaviour
         panelformainmenu.SetActive(true);
     }
     //6 buttons of main menue 
-    public void MLAgents()
+    /*public void MLAgents()
+    {
+        Debug.Log("MLAgents ");
+        panelformlagents.SetActive(true);
+        panelformainmenu.SetActive(false);
+    }*/
+    public void mlagent()
     {
         panelformlagents.SetActive(true);
         panelformainmenu.SetActive(false);
@@ -33,7 +39,7 @@ public class Menu : MonoBehaviour
         panelforcomputationalmodel.SetActive(true);
         panelformainmenu.SetActive(false);
     }
-    public void parenthesispanelopen()
+    public void matchingparanthesis()
     {
         panelforparenthesis.SetActive(true);
         panelformainmenu.SetActive(false);
