@@ -4160,7 +4160,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 866186044}
-        m_MethodName: openniazi
+        m_MethodName: openniazilab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

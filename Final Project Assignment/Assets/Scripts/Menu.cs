@@ -53,7 +53,7 @@ public class Menu : MonoBehaviour
     {
         linkpanel.SetActive(true);
     }
-    public void openniazi()
+    public void openniazilab()
     {
         Application.OpenURL("http://www.niazilab.com");
     }
